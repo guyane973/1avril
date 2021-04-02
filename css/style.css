@@ -1,0 +1,215 @@
+body {
+    background-color:#0f0f0f;
+    margin: 0;
+    }
+    
+
+#logo img {
+    margin-left:-380px;
+    margin-top:auto;
+    position:absolute;
+    display: inline-block;
+    -webkit-border-radius:5px;
+    z-index: 2;
+    }
+
+#logo a {
+    position:absolute;
+    display: inline-block;
+    float: right;
+    clear: left;
+    margin-left: -220px;
+    margin-right:3rem;
+    margin-top:20px;
+    color: #f1f1f1;
+    text-align: left;
+    text-decoration: none;
+    font: bold 22px "Segoe UI", "Segoe UI", sans-serif;
+    z-index: 2; }
+
+    #logo a:hover {
+        text-decoration: underline;
+    }
+    
+
+
+    /* Image Frame Start */
+#frame {
+    background-color:rgb(15 15 15);
+    top: 65px; left: 0; right:0;
+    position:absolute;
+    display: inline-block;
+    height: 650px; line-height: 60px;
+    border-top: 0px solid #d8d8d8;
+    z-index: 2;
+    }
+    
+#frame img {
+    margin-left:-380px;
+    margin-top:auto;
+    width: 750px;
+    height: 650px;
+    position:absolute;
+    display: inline-block;
+    border-bottom: 10px solid #c6331b;
+    z-index: 2;
+    }
+
+#frame p {
+    position:absolute;
+    display: inline-block;
+    float: right;
+    clear: left;
+    margin-left:-380px;
+    margin-right:3rem;
+    margin-top:42rem;
+    color: #f1f1f1;
+    text-align: left;
+    font: normal 18px "Segoe UI", "Segoe UI", sans-serif;
+     z-index: 2; }
+
+
+
+    #first-text img {
+        margin-left:-30px;
+        margin-top:auto;
+        position:absolute;
+        display: inline-block;
+        z-index: 2;
+        }
+
+    #first-text h2 {
+        position:absolute;
+        display: inline-block;
+        float: right;
+        clear: left;
+        margin-left:-350px;
+        margin-right:3rem;
+        margin-top:43em;
+        color: #f1f1f1;
+        text-align: left;
+        font: bold 20px "Segoe UI", "Segoe UI", sans-serif;
+        z-index: 2; }
+
+    #first-text h1:hover {
+        text-decoration: underline;
+    }
+
+
+
+    #first-text2 img {
+        margin-left:-30px;
+        margin-top:auto;
+        position:absolute;
+        display: inline-block;
+        z-index: 2;
+        }
+
+    #first-text2 h2 {
+        position:absolute;
+        display: inline-block;
+        float: right;
+        clear: left;
+        margin-left:-90px;
+        margin-right:3rem;
+        margin-top:43em;
+        color: #f1f1f1;
+        text-align: left;
+        font: bold 20px "Segoe UI", "Segoe UI", sans-serif;
+        z-index: 2; }
+
+    #first-text2 h1:hover {
+        text-decoration: underline;
+    }
+
+
+
+
+
+    #first-text3 img {
+        margin-left:-30px;
+        margin-top:auto;
+        position:absolute;
+        display: inline-block;
+        z-index: 2;
+        }
+
+    #first-text3 h2 {
+        position:absolute;
+        display: inline-block;
+        float: right;
+        clear: left;
+        margin-left:180px;
+        margin-right:3rem;
+        margin-top:43em;
+        color: #f1f1f1;
+        text-align: left;
+        font: bold 20px "Segoe UI", "Segoe UI", sans-serif;
+        z-index: 2; }
+
+    #first-text3 h1:hover {
+        text-decoration: underline;
+    }
+
+
+    #barre {
+        background-color:#c6331b;
+        position:absolute;
+        display: inline-block;
+        margin-left:-380px;
+        margin-top:60em;
+        float: right;
+        clear: left;
+        width: 46.9em;
+        height: 1px;
+        z-index: 2;
+        }
+
+
+
+
+    .article {
+        margin-left:1rem;
+        margin-top:62rem;
+        text-align: center;
+        width: 80vw;
+        color: #fff;
+        padding-left: -5rem;
+        padding-right: -5rem;
+        z-index: 2;
+    }
+    
+    .image {
+        width: 15rem;
+        height: auto;
+        margin: 1rem;
+        z-index: 2;
+    }
+    
+    .container2 {
+        margin-left:-25px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 2;
+    }
+    
+    .test {
+        width: 40vw;
+        display: flex;
+        justify-content: space-around;
+        z-index: 2;
+    }
+
+    .article, img {
+        color: #f1f1f1;
+        text-align: left;
+        font: bold 24px "Segoe UI", "Segoe UI", sans-serif; 
+    }
+    
+
+    p {
+        color: #f1f1f1;
+        text-align: left;
+        font: normal 18px "Segoe UI", "Segoe UI", sans-serif; 
+    }
